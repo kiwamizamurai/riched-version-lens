@@ -92,4 +92,4 @@ MIT - See [LICENSE](LICENSE) file
 
 ## Similar Projects
 
-- [Riched Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
+- [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
