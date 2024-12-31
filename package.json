@@ -1,0 +1,103 @@
+{
+    "name": "riched-version-lens",
+    "displayName": "Riched Version Lens with Changelog",
+    "description": "Shows version status indicators with changelog preview for your project dependencies",
+    "version": "0.1.0",
+    "publisher": "kiwamizamurai",
+    "engines": {
+        "vscode": "^1.80.0",
+        "node": ">=20.10.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:json",
+        "onLanguage:python",
+        "onLanguage:ruby",
+        "onLanguage:rust",
+        "onLanguage:go"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "riched-version-lens.showLogs",
+                "title": "Riched Version Lens: Show Logs"
+            }
+        ],
+        "configuration": {
+            "title": "Riched Version Lens",
+            "properties": {
+                "riched-version-lens.logging.level": {
+                    "type": "string",
+                    "enum": ["debug", "info", "warn", "error"],
+                    "default": "info",
+                    "description": "The logging level for Riched Version Lens"
+                },
+                "riched-version-lens.logging.enabled": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable/disable logging for Riched Version Lens"
+                },
+                "riched-version-lens.logging.showOnStartup": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Show logs panel on extension startup"
+                },
+                "riched-version-lens.logging.logToFile": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Enable logging to file"
+                },
+                "riched-version-lens.logging.logFilePath": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Custom path for log files. If empty, logs will be stored in the extension directory"
+                },
+                "riched-version-lens.logging.maxFileSize": {
+                    "type": "number",
+                    "default": 5242880,
+                    "description": "Maximum log file size in bytes before rotation (default: 5MB)"
+                },
+                "riched-version-lens.enableChangelogCache": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable/disable changelog caching. Disable this during development for real-time changelog updates."
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "lint": "biome check .",
+        "format": "biome format . --write",
+        "pretest": "npm run compile && npm run lint",
+        "test": "node ./out/test/runTest.js"
+    },
+    "dependencies": {
+        "@iarna/toml": "^3.0.0",
+        "axios": "^1.6.0",
+        "semver": "^7.5.0"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.5.3",
+        "@types/glob": "^7.2.0",
+        "@types/mocha": "^10.0.10",
+        "@types/node": "^20.8.0",
+        "@types/semver": "^7.5.8",
+        "@types/sinon": "^17.0.3",
+        "@types/vscode": "^1.80.0",
+        "@vscode/test-electron": "^2.4.1",
+        "glob": "^7.2.0",
+        "minimatch": "^3.1.2",
+        "mocha": "^10.2.0",
+        "sinon": "^19.0.2",
+        "typescript": "^5.2.2"
+    },
+    "config": {
+        "NODE_OPTIONS": "--no-deprecation"
+    }
+}

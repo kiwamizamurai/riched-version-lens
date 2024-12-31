@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "watch",
+            "problemMatcher": "$tsc-watch",
+            "isBackground": true,
+            "presentation": {
+                "reveal": "never"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "options": {
+                "env": {
+                    "PATH": "${env:HOME}/.local/share/mise/installs/node/20.10.0/bin:${env:PATH}"
+                },
+                "shell": {
+                    "executable": "/opt/homebrew/bin/zsh",
+                    "args": ["-l", "-i", "-c"]
+                }
+            }
+        }
+    ]
+}
