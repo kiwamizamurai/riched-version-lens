@@ -1,3 +1,10 @@
+[![Version](https://img.shields.io/visual-studio-marketplace/v/kiwamizamurai.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/kiwamizamurai.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/kiwamizamurai.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/kiwamizamurai.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
+[![License](https://img.shields.io/github/license/kiwamizamurai/riched-version-lens)](https://github.com/kiwamizamurai/riched-version-lens/blob/main/LICENSE)
+
+
 # Riched Version Lens with Changelog
 
 A VSCode extension that displays version status indicators (✅/🆙) for your project dependencies, with detailed changelog previews on hover.
@@ -92,4 +99,4 @@ MIT - See [LICENSE](LICENSE) file
 
 ## Similar Projects
 
-- [Riched Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
+- [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
