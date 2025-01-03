@@ -1,7 +1,7 @@
-[![Version](https://img.shields.io/visual-studio-marketplace/v/kiwamizamurai.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/kiwamizamurai.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/kiwamizamurai.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/kiwamizamurai.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/kiwamizamurai-vscode.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/kiwamizamurai-vscode.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/kiwamizamurai-vscode.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/kiwamizamurai-vscode.riched-version-lens)](https://marketplace.visualstudio.com/items?itemName=kiwamizamurai.riched-version-lens)
 [![License](https://img.shields.io/github/license/kiwamizamurai/riched-version-lens)](https://github.com/kiwamizamurai/riched-version-lens/blob/main/LICENSE)
 
 
