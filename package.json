@@ -3,7 +3,7 @@
     "displayName": "Riched Version Lens with Changelog",
     "description": "Shows version status indicators with changelog preview for your project dependencies",
     "version": "0.1.0",
-    "publisher": "kiwamizamurai",
+    "publisher": "kiwamizamurai-vscode",
     "engines": {
         "vscode": "^1.80.0",
         "node": ">=20.10.0"
@@ -11,6 +11,10 @@
     "categories": [
         "Other"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kiwamizamurai/riched-version-lens.git"
+    },
     "activationEvents": [
         "onLanguage:json",
         "onLanguage:python",
